@@ -1,0 +1,9 @@
+#appname:iZettle module POC
+#appid:com.ejci.izettlepoc
+#type:mobile
+#guid:4ddd859a-7f9d-42a7-82dc-1858b8c8a686
+#version:1.0
+#publisher:Miroslav Magda
+#url:http://blog.ejci.net
+#image:appicon.png
+#desc:Proof of concept\nhttps://www.izettle.com/
