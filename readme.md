@@ -51,14 +51,17 @@ I was unable to test payment proces with iZettle app. But according the document
 So it was relatively easy to develop application even i didn't have access to their application.
 
 To test callback from iZettle app i was using Safari browser. So here are the test link for Example App:
+
 izettlepoc://iZettle/success?reference=YOUR_REFERENCE
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=TechnicalError
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=CancelledByUser
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidCurrency
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidState
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=MissingParameter
+
 Just copy the links to Safari browser and press Go.
 ![Demo App Safari testing][2]
+
 Of course in your application you will need to change URL scheme to your scheme.
 
 ##Disclaimer
@@ -72,5 +75,5 @@ Version 0.1.0
 All code is open source and dual licensed under GPL and MIT. Check the individual licenses for more information.
 
 
-[1]: https://bitbucket.org/miroslavmagda/izettle-for-titanium/downloads/iZettle_demo.png
-[2]: https://bitbucket.org/miroslavmagda/izettle-for-titanium/downloads/iZettle_demo_testing.png
+[1]: http://cdn.bitbucket.org/miroslavmagda/izettle-for-titanium/downloads/iZettle_demo.png
+[2]: http://cdn.bitbucket.org/miroslavmagda/izettle-for-titanium/downloads/iZettle_demo_test.png
