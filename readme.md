@@ -53,16 +53,20 @@ So it was relatively easy to develop application even i didn't have access to th
 To test callback from iZettle app i was using Safari browser. So here are the test link for Example App:
 
 izettlepoc://iZettle/success?reference=YOUR_REFERENCE
+
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=TechnicalError
+
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=CancelledByUser
+
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidCurrency
+
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidState
+
 izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=MissingParameter
 
 Just copy the links to Safari browser and press Go.
 
 ![Demo App Safari testing][2]
-
 
 Of course in your application you will need to change URL scheme to your scheme.
 
