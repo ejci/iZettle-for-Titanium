@@ -8,7 +8,6 @@ well only in few EU countries (Sweden, Denmark, Finland, Norway, UK, Germany and
 
 ##Example Usage
 Check the example App to see it in action. It is ridiculously simple. You only need is [developer key from iZettle](https://developer.izettle.com/).
-Of course you can test it with their URL tester app like i did because their currently 
 
 ###Titanium code:
 	
