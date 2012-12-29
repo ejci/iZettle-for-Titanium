@@ -2,7 +2,7 @@ iZettle library for Titanium
 =======
 
 iZettle library for Titanium is a javascript module for Appcelerator Titanium. It allows to make card (VISA, Maestro,...) payments directly from your mobile device.
-Check how the whole system work on [iZettle  web page](https://www.izettle.com/). It is very similar (same?) to [Square](https://squareup.com/) but it works in Europe...
+Check how the whole system works on [iZettle  web page](https://www.izettle.com/). It is very similar (same?) to [Square](https://squareup.com/) but it works in Europe...
 well only in few EU countries (Sweden, Denmark, Finland, Norway, UK, Germany and Spain).
 
 
@@ -72,7 +72,7 @@ Of course in your application you will need to change URL scheme to your scheme.
 
 ##Disclaimer
 Unfortunately I was unable to test it on real application because iZettle is not available in my country (Slovakia) :(
-But it should work... if not please contact me and i will try to help.
+But it should work... if not please contact me and I will try to help.
 
 Author: [Miroslav Magda](http://blog.ejci.net)
 Version 0.1.0
