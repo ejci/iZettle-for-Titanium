@@ -27,8 +27,8 @@ Check the example App to see it in action. It is ridiculously simple. You only n
 	pay.addEventListener('click', function() {
 		//iZettle call application with paym,ent options
 		iZettle.payment({
-			price : inputPrice.getValue(),
-			title : inputDescription.getValue(),
+			price : 100.34,//price
+			title : 'Payment title',//description
 			currency : 'EUR',
 			reference : 'REFERENCE_STRING',
 			success : function(m) {
