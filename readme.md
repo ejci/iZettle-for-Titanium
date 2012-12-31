@@ -7,7 +7,7 @@ well only in few EU countries (Sweden, Denmark, Finland, Norway, UK, Germany and
 
 
 ###Example Usage
-Check the example App to see it in action. It is ridiculously simple. You only need is [developer key from iZettle](https://developer.izettle.com/).
+Check the example App to see it in action. It is ridiculously simple. You only need [developer key from iZettle](https://developer.izettle.com/).
 
 ####Titanium code:
     
@@ -15,7 +15,7 @@ Check the example App to see it in action. It is ridiculously simple. You only n
 	//initialize module
 	var iZettle = new (require('modules/izettle'))({
 		sourceUrl : 'izettlepoc', //your app URL scheme
-		apiKey : 'MY_SECRET_DEV_KEY', //your api key from iZettle
+		apiKey : 'MY_SECRET_API_KEY', //your api key from iZettle
 		quiet : false, //debuging on=false/off=true
 	});
 	
@@ -25,7 +25,7 @@ Check the example App to see it in action. It is ridiculously simple. You only n
 	});
 	//do some action...
 	pay.addEventListener('click', function() {
-		//iZettle call application with paym,ent options
+		//iZettle call application with payment options
 		iZettle.payment({
 			price : 100.34,//price
 			title : 'Payment title',//description
@@ -52,12 +52,12 @@ So it was relatively easy to develop application even i didn't have access to th
 
 To test callback from iZettle app i was using Safari browser. So here are the test link for Example App:
 
-izettlepoc://iZettle/success?reference=YOUR_REFERENCE
-izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=TechnicalError
-izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=CancelledByUser
-izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidCurrency
-izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidState
-izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=MissingParameter
+[izettlepoc://iZettle/success?reference=YOUR_REFERENCE](izettlepoc://iZettle/success?reference=YOUR_REFERENCE)
+[izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=TechnicalError](izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=TechnicalError)
+[izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=CancelledByUser](izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=CancelledByUser)
+[izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidCurrency](izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidCurrency)
+[izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidState](izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=InvalidState)
+[izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=MissingParameter](izettlepoc://iZettle/failure?reference=YOUR_REFERENCE&errorCode=MissingParameter)
 
 Just copy the links to Safari browser and press Go.
 
